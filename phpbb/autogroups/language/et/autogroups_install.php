@@ -2,6 +2,7 @@
 /**
 *
 * Auto Groups extension for the phpBB Forum Software package.
+* Estonian translation by phpBBeesti.ee [Exabot]
 *
 * @copyright (c) 2019 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -38,5 +39,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'AUTOGROUPS_NOT_ENABLEABLE'	=> 'Auto Groups could not be enabled. The minimum requirements of phpBB 3.2.0 and/or PHP 5.5.0 were not satisfied.',
+	'AUTOGROUPS_NOT_ENABLEABLE'	=> 'Automaatseid gruppe ei saanud lubada. phpBB 3.2.0 ja/või PHP 5.5.0 miinimumnõuded ei olnud täidetud.',
 ));
